@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.regular-bold{
+    font-weight: 600;
+}
+.italic-font{
+    font-style: italic;
+}
+.yellow{
+    color: #F5BB3D;
+}
+.btn{
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 15px 30px;
+}
+.col-info{
+    width: 60%;
+}
+.col-info h1{
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+.col-info h2{
+    font-size: 60px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.col-info p{
+    font-size: 17px;
+    line-height: 1.4rem;
+    color: gray;
+    padding-bottom: 55px;
+}
+section .row{
+    display: flex;
+    padding: 100px 5% 50px;
+    justify-content: center;
+}
+.col-imgs{
+    width: 40%;
+}
